@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-parent{
+    position: fixed;
+    width: 98vw;
+    background-color: #2c3e50;
+    padding: 10px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+ul li{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    list-style: none;
+    padding: 10px 15px;
+}
+ul li:hover{
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+.logo h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainContainer{
+    padding-top: 110px;
+}
+.Image img{
+    width: 500px;
+    height: 680px;
+}
+.txt h2{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.txt h1{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #e74c3c;
+}
+.txt h3{
+    font-size: 18px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: underline #2c3e50;
+}
+.buttons{
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.buttons button{
+    padding: 10px 15px;
+   
+}
+.btn button{
+    border: #2c3e50;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 18px;
+}
+.btn button:hover{
+    background-color: #e74c3c;
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+}
+.btn1{
+    border: transparent;
+    background-color: transparent;
+font-size: 18px;
+}
+.btn1:hover{
+    background-color: #e74c3c;
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+}
+.text-color{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-txt h1{
+    font-size: rem;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.para{
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.pra{
+    font-size: 19px;
+    padding-top: 10px;
+}
+.buttonss{
+
+    padding-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+.buttonss button{
+    padding: 10px 15px;
+}
+ .about-image img{
+    width: 500px;
+    height: 680px;
+ }
+ .about-container{
+    padding-top: 25px;
+ }
+ .skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+ }
+ .box{
+    
+    width: 260px;
+    height: 250px;
+    border: 1px solid black;
+ }
+ .box:hover{
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+    background-color: #2c3e50;
+   color: white;
+
+    padding: 10px 15px;
+ }
+ .skills{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .skillConatiner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+ }
+ .skillConatiner{
+    padding-top: 100px;
+ }
+ .Box-image img{
+    border: #e74c3c;
+    width: 50px;
+    height: 50px;
+    padding: 10px 15px;
+ }
+ 
+ .Box-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .hadding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+ }
+ .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    padding: 10px 15px;
+ }
+ .btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+ }
+ .btn4{
+    border: transparent;
+    background-color: transparent;
+font-size: 18px;
+padding: 10px 15px;
+ }
+ .btn4:hover{
+    background-color: #e74c3c;
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+ }
+ .Box-image img:hover{
+    background-color: #e74c3c;
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+    border-radius: 50%;
+ }
+ .project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .project1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .projectBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+ }
+ .box1{
+    border: 1px solid black;
+ }
+ .box1 img{
+    padding: 10px 15px;
+    width: 241px;
+    height: 154px;
+    /* background-size: cover; */
+ }
+.box1:hover{
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+    background-color: #2c3e50;
+   color: white;
+
+    padding: 10px 15px;
+}
+ .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 5px;
+}
+.email{
+    padding: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+        padding: 5px;
+     width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .contract{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .contractConatiner{
+    padding-top: 120px;
+ }
+ .contractConatiner h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+ }
+ .emailname{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .getsubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+ }
+ .Sumbit{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #2c3e50;
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Sumbit:hover{
+    background-color: #e74c3c;
+    transition: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    cursor: pointer;
+ }
+ .footer{
+    background-color: #2c3e50;
+    padding: 10px;
+    color: white;
+ }
+ .footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    
+ }
+ .footerContainer{
+    padding-top: 40px;
+ }
